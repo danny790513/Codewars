@@ -27,5 +27,6 @@ def rgb(r, g, b):
 #     return ("{:02X}" * 3).format(round(r), round(g), round(b))
 
 
+# Clever solution
 # def rgb(*args):
 #     return ''.join(map(lambda x: '{:02X}'.format(min(max(0, x), 255)), args));
